@@ -1,0 +1,116 @@
+.parent{
+    position: absolute;
+    margin-top: 210px;
+    margin-left: 590px;
+}
+.child{
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 500px;
+    height: 200px;
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.child1{
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    animation-name: child1-position1;
+    animation-duration: 1s;  
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+}
+.child2{
+    background-color: yellow;
+    height: 100px;
+    width: 100px;
+    animation-name: child2-position1;
+    animation-duration: 1s;  
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+}
+.child3{
+    background-color: blue;
+    height: 100px;
+    width: 100px;
+    animation-name: child3-position1;
+    animation-duration: 1s;  
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+}
+.child4{
+    background-color: green;
+    height: 100px;
+    width: 100px;   
+    animation-name: child4-position1;
+    animation-duration: 1s;  
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;   
+}
+.child:hover .child1{
+    animation-name: child1-position2;
+    animation-duration: 1s;  
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+}
+.child:hover .child2{
+    animation-name: child2-position2;
+    animation-duration: 1s; 
+    animation-fill-mode: forwards; 
+    animation-timing-function: linear; 
+}
+.child:hover .child3{
+    animation-name: child3-position2;
+    animation-duration: 1s;
+    animation-fill-mode: forwards; 
+    animation-timing-function: linear; 
+}
+.child:hover .child4{
+    animation-name: child4-position2;
+    animation-duration: 1s; 
+    animation-fill-mode: forwards; 
+    animation-timing-function: linear; 
+}
+
+@keyframes child1-position1{
+    0%{
+        transform: rotate(90deg) translateY(100%);
+    }
+}
+@keyframes child2-position1{
+    0%{
+        transform: rotate(-90deg) translateY(100%);
+    }
+}
+@keyframes child3-position1{
+    0%{
+        transform: rotate(-90deg) translateY(-100px);
+    }
+}
+@keyframes child4-position1{
+    0%{
+        transform: rotate(90deg) translateY(-100px);
+    }
+}
+@keyframes child1-position2{
+    100%{
+        transform: rotate(90deg) translateY(100%);
+    }
+}
+@keyframes child2-position2{
+    100%{
+        transform: rotate(-90deg) translateY(100%);
+    }
+}
+@keyframes child3-position2{
+    100%{
+        transform: rotate(-90deg) translateY(-100px);
+    }
+}
+@keyframes child4-position2{
+    100%{
+        transform: rotate(90deg) translateY(-100px);
+    }
+}

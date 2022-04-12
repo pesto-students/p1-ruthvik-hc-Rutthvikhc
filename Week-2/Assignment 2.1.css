@@ -1,0 +1,56 @@
+
+body{
+    background-color: aqua;
+}
+.main_heading{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 30px;
+    background-color: lightseagreen;
+}
+.article{
+    display: flex;
+    flex-direction: column;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.sub_division{
+    display: flex;
+    flex-direction: row;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.section1{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.section2{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+#label{
+    display: block;
+}
+form{
+    padding-left: 5%;
+}
+#signup:hover{
+    background-color: greenyellow;   
+}
+.footer{
+    margin-bottom: 0%;
+    padding-top: 30px;
+    background-color: lightseagreen;
+    height: 100px;
+    padding-top: 20px;
+}
+*.footer{
+    margin-top: 30px;
+    font-size: 15px;
+    padding-left: 10%;
+    padding-top: 40px;
+}
